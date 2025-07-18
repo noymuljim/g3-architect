@@ -184,6 +184,34 @@ main>section {
 
 
 
+
+
+#feature-section-title{
+  border-left: 5px solid orange;
+padding: 40px;
+}
+
+.feature-card{
+  padding:30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.feature-card .feature-title{
+  font-weight: 600;
+
+  /* 20 px mane 1.25 rem,,karon 1 rem=16px hy */
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.features{
+  gap: 140px;
+}
+
+
+
 /* responsive media query  */
 
 @media screen and (max-width:576px) {
@@ -212,6 +240,9 @@ main>section {
     margin-left: 20px;
   }
 
+  .fact-title-container{
+    margin-left: 20px;
+  }
 
 
 }
@@ -230,6 +261,9 @@ main>section {
     gap: 50px;
     justify-items: center;
 
+  }
+  .fact-title-container{
+    margin-left: 120px;
   }
 
 }
